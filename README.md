@@ -24,10 +24,10 @@ apt-get install build-essential python-dev libnetfilter-queue-dev
 pip install -r requirements.txt
 
 __alter for your network:__      
-The 'victim' machine was my laptop at ip 10.0.2.10
-the 'attacking' machine was a linux virtual machine at ip 10.0.2.47
-the gateway was at 10.0.0.1 
-These ip addresses will need to be changed in the 'mitm.py' file if you are reproducing this on your home network
+The 'victim' machine was my laptop at ip 10.0.2.10   
+the 'attacking' machine was a linux virtual machine at ip 10.0.2.47   
+the gateway was at 10.0.0.1   
+These ip addresses will need to be changed in the 'mitm.py' file if you are reproducing this on your home network   
 
 ## The project in action
 
