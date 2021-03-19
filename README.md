@@ -7,7 +7,7 @@ This project was undertaken as part of a job application. I created a very simpl
 
 ## Files
 
-mitm.py: The goal of this file is to perform arp spoofing on the network so that the victim machine thinks that attacking machine is the network gateway and the gateway thinks the attacking machine is the victim machine.
+mitm.py: The goal of this file is to perform arp spoofing on the network so that the victim machine thinks that the attacking machine is the network gateway and the gateway thinks the attacking machine is the victim machine.
 
 main.py: Once the network traffic has been rerouted run this file to intercept the specified packets.
 
