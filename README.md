@@ -15,7 +15,7 @@ the_site: A folder containing the code for the simple web application currently 
 
 ## Set Up
 
-__clone the repository:__
+__clone the repository:__   
 git clone https://github.com/Bencabe/mitm_scapy_nfqueue.git
 
 __nfqueue does not work with python versions later than 3.6 so I recommend creating a virtual environment. If you have anaconda:__
