@@ -32,15 +32,15 @@ These ip addresses will need to be changed in the 'mitm.py' file if you are repr
 ## The project in action
 
 __before the attack__   
-https://user-images.githubusercontent.com/44676083/111799961-6639db00-88c3-11eb-9ef3-8caccbc2d4e9.mov
+![before](https://user-images.githubusercontent.com/44676083/111806806-435ef500-88ca-11eb-891b-ac6e93c09420.gif)
 
 
 __the attack__
-![D482D7AB-5E38-4652-9C37-7ADE939218E6_1_105_c](https://user-images.githubusercontent.com/44676083/111803354-e150c080-88c6-11eb-8695-3a74195a51ed.jpeg)
+![during](https://user-images.githubusercontent.com/44676083/111811445-f3366180-88ce-11eb-864f-55d560ab03dc.gif)
 
 
 __after the attack__
-![10D4EFA9-7CBE-49EE-A514-9C6E71FE9653_1_105_c](https://user-images.githubusercontent.com/44676083/111801927-57ecbe80-88c5-11eb-9086-602169d5f21c.jpeg)
+![after](https://user-images.githubusercontent.com/44676083/111807746-3098f000-88cb-11eb-90d2-e22de060a85f.gif)
 
 
 
