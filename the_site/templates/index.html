@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <style>
+
+    </style>
+
+</head>
+<body>
+    <input id='inputField' type='text'><button onclick='getInput()'>Submit</button>
+    <span id='result'></span>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+    function getInput(){
+        var input = document.getElementById('inputField').value
+        // document.getElementById('result').innerHTML = input
+        $.ajax({
+            asyn: false,
+            url: $SCRIPT_ROOT + '/display_text',
+            data: {'input': input},
+            success: function(data){
+                console.log(data)
+                document.getElementById('result').innerHTML = data['res']
+            }
+
+        })
+    }
+</script>
